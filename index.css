@@ -1,0 +1,305 @@
+.index-container {
+  min-height: 100vh;
+}
+.index-super-admin-login {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: flex-end;
+  background-color: rgba(255, 255, 255, 1);
+}
+.index-bg {
+  flex: 10;
+  left: 0px;
+  right: 0px;
+  width: 1200px;
+  bottom: -28px;
+  height: 730px;
+  margin: auto;
+  position: absolute;
+  border-color: transparent;
+}
+.index-main-box {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 688px;
+  bottom: 0px;
+  height: 752px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  border-color: transparent;
+  border-radius: 30px;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/rectangle111139-8v69-800h.png");
+  background-position: center;
+}
+.index-juan-l-ucopy2 {
+  top: 60px;
+  left: 0px;
+  right: 0px;
+  width: 330px;
+  height: 174px;
+  margin: auto;
+  position: absolute;
+  border-color: transparent;
+}
+.index-text {
+  top: 260px;
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.index-text2 {
+  top: 295px;
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.index-pass {
+  top: 422px;
+  left: 166px;
+  width: 355px;
+  height: 58px;
+  margin: auto;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.index-user {
+  top: 364px;
+  left: 0px;
+  right: 0px;
+  width: 355px;
+  height: 58px;
+  margin: auto;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.index-text4 {
+  top: 484px;
+  left: 202px;
+  color: rgba(0, 0, 0, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.index-text6 {
+  top: 482px;
+  left: 381px;
+  color: rgb(0, 0, 0);
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.index-vector {
+  top: 436px;
+  left: 198px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.index-usersvgrepocom {
+  top: 373px;
+  left: 192px;
+  width: 37px;
+  height: 34px;
+  position: absolute;
+}
+.index-checkbox {
+  top: 487px;
+  flex: 0;
+  left: 192px;
+  width: auto;
+  z-index: 100;
+  position: absolute;
+}
+.index-username {
+  top: 374px;
+  left: 233px;
+  position: absolute;
+  border-width: 0px;
+}
+.index-password {
+  top: 430px;
+  left: 234px;
+  position: absolute;
+  border-width: 0px;
+}
+.index-pasted-image {
+  left: 0px;
+  right: 0px;
+  width: 158px;
+  bottom: 106px;
+  margin: auto;
+  position: absolute;
+}
+.index-header {
+  top: 0px;
+  flex: 100;
+  left: 0px;
+  right: 0px;
+  width: 1200px;
+  height: 23px;
+  margin: auto;
+  position: absolute;
+  max-width: var(--dl-size-size-maxwidth);
+  min-width: 100%;
+  transition: 0.3s;
+  border-color: transparent;
+  margin-right: auto;
+}
+
+@media(max-width: 991px) {
+  .index-bg {
+    left: -206px;
+    bottom: -23px;
+    margin: auto;
+  }
+}
+@media(max-width: 767px) {
+  .index-main-box {
+    width: 614px;
+    height: 725px;
+  }
+  .index-pass {
+    top: 418px;
+    left: 126px;
+  }
+  .index-text4 {
+    top: 503px;
+    left: 159px;
+  }
+  .index-text6 {
+    top: 503px;
+    left: 343px;
+  }
+  .index-vector {
+    top: 434px;
+    left: 151px;
+  }
+  .index-usersvgrepocom {
+    top: 368px;
+    left: 147px;
+  }
+  .index-checkbox {
+    top: 506px;
+    left: 149px;
+  }
+  .index-username {
+    top: 374px;
+    left: 185px;
+  }
+  .index-password {
+    top: 426px;
+    left: 182px;
+  }
+}
+@media(max-width: 479px) {
+  .index-main-box {
+    width: 441px;
+    height: 657px;
+  }
+  .index-pass {
+    top: 418px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .index-text4 {
+    top: 503px;
+    left: 74px;
+  }
+  .index-text6 {
+    left: 228px;
+    right: var(--dl-space-space-halfunit);
+    bottom: 134px;
+    margin: auto;
+  }
+  .index-vector {
+    top: 433px;
+    left: 69px;
+  }
+  .index-usersvgrepocom {
+    top: 372px;
+    left: 63px;
+  }
+  .index-checkbox {
+    top: 506px;
+    left: 64px;
+  }
+  .index-username {
+    top: 375px;
+    left: 109px;
+  }
+  .index-password {
+    top: 426px;
+    left: 109px;
+    width: 264px;
+  }
+  .index-pasted-image {
+    left: 0px;
+    right: 0px;
+    bottom: 47px;
+    margin: auto;
+  }
+}
